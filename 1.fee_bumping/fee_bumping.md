@@ -402,7 +402,7 @@ increase the combined feerate across the parent and child transactions.
 
 ## How does CPFP work?
 
-When constructing a new block, miners are incentivized to fill the 1vMB with
+When constructing a new block, miners are incentivized to fill the 4vMB with
 the set of transactions that maximize the transaction fees. If all unconfirmed
 transactions were independant, this would be a very straightforward operation -
 the miner would select the transaction with the highest feerate and add it to
